@@ -17,10 +17,13 @@ define(['N/record'], function (record) {
         if (context.type !== context.UserEventType.VIEW) {
             return;
         }
+        
+        // Attach Client Script to the form (required for button actions)
+        form.clientScriptModulePath = 'SuiteScripts/client/cs_po_button.js';
 
         // transaction type
         if (newRecord.type === record.Type.PURCHASE_ORDER) {
-
+            //add button
             form.addButton({
                 id: 'custpage_test_po_button',
                 label: 'Test button for PO',

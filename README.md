@@ -13,3 +13,4 @@ The repository includes small examples such as:
 
 These examples are simplified and do not represent production code.
 They contain no real business logic, IDs, or credentials.
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/orozcoisboseth/netsuite-suitescript-examples)
